@@ -26,8 +26,6 @@ reverseButton.addEventListener('click', () => {
     }
 });
 
-
-
 // Event listener untuk button reset
 resetButton.addEventListener('click', () => {
     celciusInput.value = '';

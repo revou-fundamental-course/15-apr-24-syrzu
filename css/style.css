@@ -1,6 +1,6 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: auto;
+    margin: auto;
 }
 
 main{
@@ -23,7 +23,7 @@ button{
 
 .celcius-section{
     margin-top: 4px;
-    padding: 16px 0 0 0;
+    padding: 1\6px 0 0 0;
 }
 
 textarea{
