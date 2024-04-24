@@ -8,25 +8,60 @@ main{
     width: 50%;
 }
 
+button{
+    margin-top: 4px;
+}
+
 .main-section{
     padding: 16px;
     background-color: antiquewhite;
     border-radius: 4px;
+    margin-top: 4px;
 }
 
 .celcius-section{
+    margin-top: 4px;
     padding: 16px 0 0 0;
 }
 
 textarea{
-    height: 60px;
-    width: 50%;
+    height: 30px;
+    width: 75%;
+    padding: 12px 20px;
+    margin-top: 4px;
+    resize: none;
+    border: 1px solid grey;
+    background-color: #f8f8f8;
+    
 }
 
 .explanation-header-section{
     padding-top: 32px;
+    margin-top: 4px;
 }
 
 hr {
     margin: 32px 0 32px 0;
+}
+
+#convert-button{
+    padding: 3px 4px;
+    color: white;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+#reset-button{
+    padding: 3px 2px;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+#reverse-button{
+    padding: 3px 4px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
 }
