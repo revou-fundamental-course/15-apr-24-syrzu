@@ -12,6 +12,8 @@ button{
     margin-top: 4px;
 }
 
+
+
 .main-section{
     padding: 16px;
     background-color: antiquewhite;
@@ -51,6 +53,11 @@ hr {
     border: 1px solid skyblue;
     border-radius: 5px;
 }
+
+#convert-button:active{
+    background-color: rgba(135, 207, 235, 0.333);
+    border: 0px;
+}
 #reset-button{
     padding: 3px 2px;
     color: white;
@@ -58,10 +65,18 @@ hr {
     border: 1px solid green;
     border-radius: 5px;
 }
+#reset-button:active{
+    background-color: rgba(0, 128, 0, 0.333);
+    border: 0px;
+}
 #reverse-button{
     padding: 3px 4px;
     color: white;
     background-color: red;
     border: 1px solid red;
     border-radius: 5px;
+}
+#reverse-button:active{
+    background-color: rgba(255, 0, 0, 0.333);
+    border: 0px;
 }
